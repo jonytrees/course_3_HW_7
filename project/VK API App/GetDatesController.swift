@@ -5,6 +5,8 @@
 //  Created by Евгений Янушкевич on 01.02.2021.
 //
 
+
+
 import UIKit
 
 class GetDatesController: UIViewController {
@@ -12,6 +14,7 @@ class GetDatesController: UIViewController {
     var userId = Session.userInfo.userId
     var version = "5.52"
     
+
     let configuration = URLSessionConfiguration.default
 
     @IBAction func friendsButton(_ sender: Any) {
